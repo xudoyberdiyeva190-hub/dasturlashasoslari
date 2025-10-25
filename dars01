@@ -1,0 +1,198 @@
+Asadbek"
+family="Xudoyberdiyev"
+address="0lmachi"
+course="dasturlash"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+# 2
+name="Javohir"
+family="Abdulakimov"
+address="aqsh"
+course="dasturlash"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Abror"
+family="Abdumajidov"
+address="G'allarol"
+course="mehnat"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="O'g'loy"
+family="Akmalova"
+address="sayhan"
+course="tikuvchilik"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Suhrobjon"
+family="Akramov"
+address="forj"
+course="kimyo"
+age="19"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Gulnoza"
+family="Bozorboyeva"
+address="kessak topdi"
+course="chet tili"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Gulnoza"
+family="Bozorboyeva"
+address="kessak topdi"
+course="chet tili"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Mahliyo"
+family="Elmuratova"
+address="samarqand"
+course="biologiya"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="SHohjahon"
+family="Imyanimov"
+address="Firansiya"
+course="dasturlash"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Charos"
+family="Isroilova"
+address="london"
+course="mehnat"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Abdurauf"
+family="Joraqulov"
+address="lelin"
+course="dasturlash"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Bahora"
+family="Jo'raqulova"
+address="Hindiston"
+course="kares tili"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Mohichehra"
+family="Mamatqulova "
+address="sidva"
+course="xitoy tili"
+age="34"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Mohinur"
+family="Mardiyeva"
+address="dehli"
+course="nems tili"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="SHahzoda"
+family="Mirzayeva"
+address="sumbila qishlgi"
+course="manash tili"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Nigora"
+family="Nusratova"
+address="forij"
+course="doktor"
+age="30"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Shahzod"
+family="Qo'ziboyev"
+address="boxoro"
+course="dasturlash"
+age="20"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Feruza"
+family="Qurbonova"
+address="o'rda"
+course="chet tili"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Yulduz"
+family="Sayitmurotova"
+address="forij"
+course="rus tili"
+age="30"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Nurbek"
+family="SHermatov"
+address="kessak topdi"
+course="chet tili"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Lochinbek"
+family="Ulug'bekov"
+address="samarqand"
+course="fizika"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Rahmatillo"
+family="Umataliyev"
+address="namangan"
+course="chet tili"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="odinabonu"
+family="Xolmirzayeva"
+address="surhandaryo"
+course="namis tili"
+age="18"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Sarvar"
+family="Xudoyberdiyev"
+address="Bulung'ur"
+course="dasturlash"
+age="21"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+name="Maftuna"
+family="yangiboyeva"
+address="germaniya"
+course="tojik tili"
+age="19"
+print(f"name: {name}\n family: {family}\n address: {address}\n course: {course}\n age: {age}")
+print(f"name: {name} family: {family} address: {address} course: {course} age:{age}")
+ism = "Asadbek"
+Familya = "Xudoyberdiyev"
+ism_sharif= f"{ism} {Familya}"
+print (ism_sharif)
+ism="Asadbek"
+Familya="Xudoyberdiyev"
+print(ism+' '+Familya)
+ism="Asadbek"
+print("mening ismim"+ ism )
+ism="Asadbek"
+Familya="Xudoyberdiyev"
+print(ism+' '+Familya)
+radius=5
+pi=3.14159
+yuzasi=pi*radius**2
+print(yuzasi)
+name="Asadbek"
+Family="Xudoyberdiyev"
+age="18"
+course="nems tili"
+print(f"name:{name}\n Family: {Family}\n age: {age}\n course: {course}\n")
+parol=input("Password") name="
