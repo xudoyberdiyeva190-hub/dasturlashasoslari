@@ -1,0 +1,64 @@
+about="O'zbekiston vatanim mening.Vatan ostonadan boshlanadi.Ona vatanim O'zbekiston"
+1
+print(about.upper())
+print(about)
+2
+print(about.lower())
+print(about)
+3
+print(about.title())
+print(about)
+4
+print(about.capitalize())
+print(about)
+5
+print(matn.strip())
+6
+print(matn.lstrip())
+7
+print(matn.startswith("O'zbekiston"))
+8
+print(matn.index("mening"))
+9
+print(about.replace(input("oldingi matnni kiriting"),input("keyingi matinni kiriting")))
+print(about.count('vatan'))
+10
+print(sorted(about))
+11
+print(matn.index("mening"))
+12
+print(about.index("n"))
+13
+print(matn.find("n"))
+14
+matn="about"
+joy=(about.find("s"))
+print(joy)
+15
+print(matn.count("a"))
+16
+natija=matn.startswith("a")
+print(natija)
+17
+print(matn.endswith("O'zbekiston"))
+19
+print(matn.isalnum())
+21
+print(matn.islower())
+20
+print(matn.isupper())
+21
+print(matn.upper())
+22
+print(matn.center(10))
+23
+print(matn.ljust(12))
+24
+raqam="42"
+natija=(raqam.zfill(5))
+print(natija)
+26
+ism=input("Ismingizni kiriting:")
+yosh=input("Yoshingizni kiriting:")
+matn="Salom,{}! Sizning yoshingiz {} da.".format(ism,yosh)
+print(matn)
