@@ -1,0 +1,56 @@
+#1
+# x=("kiwi","mandarn","cherry","nok")
+# y=list(x)
+# y[0]="behi"
+# x=tuple(y)
+# print(x)
+#2
+# thistuple=("kiwi","mandarn","cherry","nok")
+# y = list(thistuple)
+# y.append("behi")
+# print(y)
+# thistuple=("kiwi","mandarn","cherry","nok")
+#3
+# thistuple=("kiwi","mandarn","cherry","nok")
+# y = ("behi",)
+# thistuple += y
+#
+# print(thistuple)
+#4
+# thistuple=("kiwi","mandarn","cherry","nok")
+# y=list(thistuple)
+# y.remove("kiwi")
+# thistuple=  tuple(y)
+# print(thistuple)
+#5
+# thistuple=("kiwi","mandarn","cherry","nok")
+# del thistuple
+# print(thistuple)
+#6
+# fruits = ['apple', 'banana', 'orange',]
+#
+# (gren,yellow,red) = fruits
+#
+# print(gren)
+# print(yellow)
+# print(red)
+#7
+# fruits = ['apple', 'banana', 'orange',]
+# for x in fruits:
+#   print(x)
+#8
+# fruits = ['apple', 'banana', 'orange',]
+# i=0
+# while i < len(fruits):
+#     print(fruits[i])
+#     i=i+1
+#9
+# tuple1=("a","b","c")
+# tuple2=(1,2,3)
+# tuple3=(tuple1+tuple2)
+# print(tuple3)
+#10
+# fruits = ['apple', 'banana', 'orange',]
+# mytuple = fruits * 2
+# print(mytuple)
+#11
