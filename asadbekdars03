@@ -1,0 +1,109 @@
+#1
+# numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+# for i in numbers:
+#     print(i)
+#2
+# nums = [1,2,3,4,5,6,7,8,9]
+# s = 0
+# for n in nums:
+#     s += n
+# print("Yig‘indi:", s)
+#3
+# nums = [1,2,3,4,5,6,7,8,9]
+# print(nums)
+# max_num = nums[0]
+# for n in nums:
+#     if n > max_num:
+#         max_num = n
+# print("Eng katta:", max_num)
+#4
+# nums = [1,2,3,4,5,6,7,8,9]
+# print(nums)
+# min_num = nums[0]
+# for n in nums:
+#     if n < min_num:
+#          min_num = n
+# print("Eng kichigi: ", min_num)
+#5
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+# print(numbers*2)
+#6
+# nums=[1,2,3,4,5,6,7,8,9]
+# kv=[]
+# for i in nums:
+#     kv.append(i**2)
+# print("Kivadratlar: ",kv)
+#7
+# nums = [1,2,3,4,5,6,7,8,9]
+# juft = []
+# for n in nums:
+#     if n % 2 == 0:
+#         juft.append(n)
+# print("Juftlar:", juft)
+# #8
+# nums = [1,2,3,4,5,6,7,8,9]
+# toq = []
+# for n in nums:
+#     if n % 2 != 0:
+#      toq .append(n)
+# print("toqlar: ", toq)
+# #9
+# nums = [1,2,3,4,5,6,7,8,9]
+# for n in nums[::-1]:
+#  print(n)
+#10
+# nums = [1,2,3,4,5,6,7,8,9]
+# for i in range(len(nums)):
+#     print(i, "->", nums[i])
+#11
+from itertools import count
+# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# count = 0
+# for n in nums:
+#     if n > 0:
+#         count += 1
+# print("0 dan katta sonlar soni:", count)
+#12
+# nums = [1,2,3,4,5,6,7,8,9]
+# summa = 0
+# for n in nums:
+#     summa += n
+# print("O'rtacha qiymat:",summa/len(nums))
+# #13
+# words = ["salom", "dunyo", "python"]
+# for w in words:
+#     print(w, "uzunligi:", len(w))
+#14
+# ismlar = "Asadbek"
+# ismlar.upper()
+# print(ismlar)
+#15
+# ismlar = "Asadbek"
+# ismlar.lower()
+# print(ismlar)
+#16
+# fruits = []
+# for i in range(3):
+#     nom = input("Meva kiriting: ")
+#     fruits.append(nom)
+# print("Ro‘yxat:", fruits)
+#17
+# fruits = ['apple', 'banana', 'orange', 'strawberry']
+# fruits.remove(fruits[0])
+# print("Yangilangan ro‘yxat:", fruits)
+#18
+# numbers = []
+# for i in range(5):
+#     x = int(input("Son kiriting: "))
+#     numbers.append(x)
+# print("Ro‘yxat:", numbers)
+#19
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# yigindi = 0
+# for n in numbers:
+#     yigindi += n
+# print("Yig‘indi:", yigindi)
+#20
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# for i in range(len(numbers)):
+#     print(i + 1, "->", numbers[i])
