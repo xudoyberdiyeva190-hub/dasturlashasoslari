@@ -1,0 +1,194 @@
+
+# for i in range(6):
+#     print(f"{i}-Kofi tayyorlanmoqda...")
+#     print("suv qaynamoqda")
+#     print("sut solinmoqda")
+#     print("Tayyor buldi")
+#2
+# sportchi=5
+# while sportchi>0:
+#     print("Sportchi:",sportchi)
+#     sportchi-=1
+#     print("suportchi yugurayapdi")
+from unittest import case
+
+#3
+# for i in range(10):
+#     if i<10:
+#         print=int(input("baholandi"))
+#     print=int(input("10 uquvchi baholandi"))
+
+
+# balans=5000
+# while balans>0:
+#     print("Balans:",balans)
+#     balans-=1000
+# print("bank bankrot  buldi")
+# yosh=int(input("yoshingiz nechida? "))
+# if yosh<4:
+#     print("Sizdga kirish bepul.")
+# elif yosh<12:
+#     print("Sizga kirish 5000 so\'m")
+# else:
+#     print("Sizga kirish 10000 so\'m")
+#4
+# mevalar=["olma","nok","behi","shaptoli"]
+# for i in mevalar:
+#     print(i)
+#5
+# tulov=""
+# while tulov!="0":
+#     tulov=input("tulovni kiriting: ")
+# print("dastur tuxtadi")
+#6
+# yoqilgi=70
+# while yoqilgi>0:
+#     print("Yoqil\'gi:",yoqilgi)
+#     yoqilgi=yoqilgi-10
+# print("yoqilg'i tugadi")
+#7
+# for parol in range(4):
+#     parol=input("parol kiriting:")
+# while parol=="Asadbek":
+#     print("Siz kirdingiz tabriklayman")
+#     break
+# else:
+#    print("1 soatdan sung qulf ochiladi")
+#8
+# for i in range(1, 11):
+#     if i == 4:
+#         print(f"{i}-chi olma chirigan, o‘tkazildi")
+#         continue
+#     print(f"{i}-chi olma sog'lom, saqlandi")
+#10
+# dustlar=["Jalol","Muhammad","Hasan"]
+# for dust in dustlar:
+#     print(f"Salom {dust}! Sizga dars haqida habar yuborildi")
+#11
+# import random
+# son = random.randint(1,6)
+# print("CHiqqan son",son)
+# if son == 6:
+#     print("siz oltini chiqardingiz")
+# else:
+#     print("Bu safar omad yuq")
+
+#12
+# sonlar=list(range(1,11))
+# for son in sonlar:
+#     if son == 2:
+#         continue
+#     print(f"{son} ning kivadrati {son**2}ga teng")
+#13
+# son=0
+# while son<10:
+#     son=son+1
+#     if son%2!=0:
+#         continue
+#     else:
+#         print(son)
+#14
+
+# vaqt=float(input("Energiya vaqtini kiriting="))
+# if vaqt==1:
+#     print("10 ming ishladi")
+# while vaqt==2:
+#     print("12 ming ishladi")
+# while vaqt==3:
+#     print("13 ming ishladi")
+# if vaqt<4:
+#     print("15 ming ishladi")
+# if vaqt<5:
+#     print("16 ming ishladi")
+# if vaqt<6:
+#     print("19 ming ishladi")
+# if vaqt<7:
+#     print("25 ming ishladi")
+# if vaqt<8:
+#     print("28 ming ishladi")
+# if vaqt<9:
+#     print("30 ming ishladi")
+# if vaqt<10:
+#     print("31 ming ishladi")
+# if vaqt<11:
+#     print("32 ming ishladi")
+# if vaqt<12:
+#     print("35 ming ishladi")
+# if vaqt<13:
+#     print("36 ming ishladi")
+# if vaqt<14:
+#     print("39 ming ishladi")
+# if vaqt<15:
+#     print("40 ming ishladi")
+# if vaqt<16:
+#     print("46 ming ishladi")
+# if vaqt<17:
+#     print("47 ming ishladi")
+# if vaqt<18:
+#     print("48 ming ishladi")
+# if vaqt<19:
+#     print("49 ming ishladi")
+# if vaqt<20:
+#     print("50 ming ishladi")
+# if vaqt<21:
+#     print("51 ming ishladi")
+# if vaqt<22:
+#     print("52 ming ishladi")
+# if vaqt<23:
+#     print("53 ming ishladi")
+# if vaqt<24:
+#     print("54 ming ishladi")
+# if vaqt<25:
+#     print("55 ming ishladi")
+# x=int(input("elektr energiyasini vaqtini kiriting=>>> "))
+# match x:
+#     case 1<=x<3:
+#         print("10 ishladi")
+#     case 3<=x<=5:
+#         print("15 ming ishladi")
+    # case 5<=x<=7:
+    #     print("semester 3")
+    # case 7<=x<=9:
+    #     print("semester 4")
+    # case 9<=x<=11:
+    #     print("semester 5")
+    # case 10<=x<=11:
+    #     print("semester 6")
+    # case 12<=x<=13:
+    #     print("semester 7")
+    # case 14<=x<=15:
+    #     print("semester 8")
+#14
+# x=int(input("elektr energiyasini vaqt=>>> "))
+
+# match x:
+#     case vaqt if vaqt < 1:
+#         print(" 20 ming sum ishladi")
+#     case vaqt if vaqt < 2:
+#         print(" 22 ming sum ishladi")
+#     case vaqt if vaqt < 3:
+#         print(" 62 ming sum ishladi")
+#     case vaqt if vaqt < 4:
+#         print(" 72 ming sum ishladi")
+#     case vaqt if vaqt < 5:
+#         print(" 80 ming sum ishladi")
+#     case vaqt if vaqt < 6:
+#         print(" 90 ming sum ishladi")
+#     case _:
+#             print(" 0 ming sum ishladi")
+#16
+# x=int(input("bo'lakni tanla>>>"))
+# if x==1:
+#     print("birinchi bulakni Hasan yedi")
+#     print=input("3 bulak qoldi")
+# if x==2:
+#     print("ikkinchi bulakni Jalol yedi")
+#     print=input("2 bulak qoldi")
+# if x==3:
+#     print("uchinchi bulakni Asad yedi")
+#     print=input("1 bulak qoldi")
+# if x==4:
+#     print("turtinchi bulakni Muhammad yedi")
+#     print=input("tugadi buldi yozaverasanmi")
+# else:
+#     print("uzi turta bulak tugri yoz")
