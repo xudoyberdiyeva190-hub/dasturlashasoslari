@@ -1,0 +1,122 @@
+1
+'''for i in range(11):
+    print(i)'''
+#2
+'''for i in range(21):
+    if i%2!=0:
+        continue
+    print(i)'''
+#3
+'''for i in "nurbek":
+    print(i)'''
+#4
+'''for i in range(1, 6):
+    print(i, "ning kvadrati =", i**2)'''
+#5
+'''mevalar=["olma","nok","gilos","shaftoli"]
+for meva in mevalar:
+    print(meva)'''
+#6
+'''i = 1
+s = 0
+for i in range(1,101):
+    s += i
+    i += 1
+print("1 dan 100 gacha sonlar yig‘indisi:", s)'''
+#7
+'''s=0
+n=int(input("sonikiriting:"))
+for i in range(n):
+    x=int(input('son='))
+    if x<0:
+        continue
+    s=s+x
+print(s,s/n)'''
+#8
+'''for i in range(1,10):
+    i=i-1
+    print(i)'''
+#9
+'''i=0
+while i<=5:
+    print(i)
+    i=i+1'''
+#10
+'''i=10
+while i>=1:
+    print(i)
+    i=i-1'''
+#11
+'''son=int(input("soni kiriting:"))
+while son!=0:
+    print(son,"dastur davom etadi")
+    son=int(input("kiyingi son:"))
+print("dastur to'xtadi.")'''
+#12
+'''i=1
+while i<=10:
+    print(i,i**2)
+    i=i+1'''
+#13
+'''i=1
+s=0
+while i<=100:
+    s=s+i
+    i=i+1
+    print(s)'''
+#14
+'''i=1
+matn=input("gapni yozing:")
+while (matn!="stop" and i<5) :
+    print("davom etting.")
+    matn=input("keyingi matnni kiriting:")
+    i=i+1
+print("matn yozishdan to'xtang.",matn)'''
+#15
+'''i=0
+while i<=10:
+    if i==5:
+        break
+    print(i)
+    i=i+1'''
+#16
+'''i=0
+while i<10:
+    i=i+1
+    if i==5:
+        continue
+    print(i)'''
+#17.1
+'''kiritish=input(":")
+while kiritish!="exit" :
+    print("davom etting.")
+    kiritish=input("keyingi matnni kiriting:")
+print("matn yozishdan to'xtang.",kiritish)'''
+#17
+'''i=input(":")
+while i!="exit":
+    print("davom etting")
+    i=input(":")
+    if i=="exit":
+        break
+print("chiqing")'''
+#1..
+'''items=("pen","book","bag")
+a,b,c=items
+print(b)'''
+#18
+'''i=0
+while i<10:
+    i=i+1
+    if i%2!=0:
+        continue
+    print(i)'''
+#19
+'''for i in range(21):
+    if i==7:
+        break
+    print(i)'''
+#20
+for i in range(11):
+    if i%2!=0:
+        print(i)
