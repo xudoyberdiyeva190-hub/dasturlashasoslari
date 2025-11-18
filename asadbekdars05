@@ -1,0 +1,175 @@
+# son=int(input("Son kiriting>>>"))
+# if son%2==0:
+#     print("Bu murakkab son")
+# elif son%2==1:
+#     print("Tub son")
+#2
+# Baho=int(input("Talabaning bahosini kiriting"))
+# if Baho>60:
+#     print("Talaba intihondan o'tdi")
+# else:
+#     print("Talaba imtihondan o'ta olmadi")
+#3
+# harorat=float(input("Havo haroratini kiriting>>>>"))
+# if harorat==0:
+#     print("Muzlash ehtimoli bor")
+# else:
+#     print("Harorat narmal")
+#4
+# balans=5000
+# while balans > 0:
+#     print("Balans:",balans)
+#     balans=balans-1000
+# print("Bank bankirot bo'ldi")
+#5
+# radius=float(input("Radius kiriting "))
+# if radius>0:
+#     print("Doira yuzini hisoblaydi")
+# else:
+#     print("Xato radius")
+#6
+# yosh=int(input("Yoshingizni kiriting"))
+# if yosh<18:
+#    print("Siz hali o'qishga topshira olmaysiz")
+# elif yosh==18:
+#     print("Siz o'qishga topshirishingiz mumkkin")
+# else:
+#     print("Siz o'qishga topshirishingiz mumkin")
+#7
+# from math import*
+# d1=float(input('Birinchi dioganalni kiriting'))
+# d2=float(input('ikkinchi dioganalni kiriting'))
+# a=float(input('gradusni  kiriting'))
+# S=d1*d2*sin(a)
+# print("S=",S)
+#8
+# x=float(input("son kiriting"))
+# if 0<=x<=1:
+#     print("f(x)=x² funksiya",x**2, "ga teng")
+# else:
+#     print("2x+1 ga teng")
+#10
+# x=int(input("Tovarni kiriting"))
+# if x<0:
+#     print("savat bo'sh")
+# elif x>0:
+#     print("savat",x*25,"ming so'mlik xarid amalga oshirildi")
+# else:
+#     print("Iltimos savatni to'ldiring")
+#11
+# x=int(input("Bahoni kiriting"))
+# if 80<=x<=100:
+#     print("A")
+# if 70<=x<=80:
+#     print("B")
+# if 60<=x<=50:
+#     print("C")
+# else:
+#     print("F")
+#12
+# a=int(input("Uchburchakning birinchi tomonini kiriting:"))
+# b=int(input("Uchburchakning ikkinchi tomonini kiriting:"))
+# c=int(input("Uchburchakning uchinchi tomonini kiriting:"))
+# if a+b>c and a+c>b and b+c>a:
+#     if a==b==c:
+#         print("Bular teng teng tomonli")
+#     elif a==b or b==c or a==c:
+#         print("Teng yonli uchburchak")
+#     else:
+#         print("Turli tomonli uchburchak")
+# else:
+#         print("Uchburchak hosil bo'lmaydi")
+#13
+# son=int(input("Son kiriting"))
+# if son>0:
+#     print("Musbat son")
+# elif son<0:
+#     print("Manfiy son")
+# else:
+#     print("No'lga teng")
+#14
+# x=int(input("Hafta kunini kiriting="))
+# if x==1:
+#     print("Dushanba")
+# elif x==2:
+#     print("Seshanba")
+# elif x==3:
+#     print("CHorshanba")
+# elif x==4:
+#     print("Payshanba")
+# elif x==5:
+#     print("Juma")
+# elif x==6:
+#     print("SHanba")
+# elif x==7:
+#     print("Yakshanba")
+# else:
+#     print("Bunday hafta kuni yo'q")
+# x=int(input("Haftalar="))
+# match x:
+#     case 1:
+#         print("dushanba")
+#     case 2:
+#         print("seshanba")
+#     case 3:
+#         print("chorshanba")
+#     case 4:
+#         print("payshanba")
+#     case 5:
+#         print("juma")
+#     case 6:
+#         print("shanba")
+#     case 7:
+#         print("Yakshanba")
+#     case _:
+#         print("Bunday hafta yo'q")
+#
+# oy=int(input("Nechanchi oyni kiritmoqchisiz="))
+# if 1<=oy<4:
+#     print("Bahor fasli")
+# if 4<=oy<7:
+#     print("Yoz fasli")
+# if 7<=oy<9:
+#     print("Kuz fasli")
+# if 9<=oy<12:
+#     print("Qish fasli")
+#22
+# for parol in range (3):
+#     parol=input("Parolni kiriting")
+#     if parol=="Asadbek":
+#         print("Tizimga kirildi ")
+#         break
+# else:
+#     print("Tizm bloklandi 2 minutdan so'ng kirish mumkun")
+#23
+# n=int(input("Diplom bahosini kiriting: "))
+# if 50<=n<70:
+#     print("1 million ustama beriladi")
+# if 70<=n<80:
+#     print("2 million ustama beriladi")
+# if 80<=n<100:
+#     print("3 million ustama beriladi")
+#24
+# menyu=["USD","EUR","GBP"]
+# valyuta=input("valyutu kursini kiriting:")
+# if valyuta in menyu:
+#     print("USD=12 500 so'mga teng")
+# if valyuta in menyu:
+#     print("EUR=13 300 so'mga teng")
+# if valyuta in menyu:
+#     print("GBP=14 300 so'mga teng")
+#25
+# kun=input("Bugun nima kun>>>")
+# if kun.lower()=="shanba" or kun.lower()=="yakshanba":
+#     print("Bugun dam olish kuni")
+# else:
+#     print("Bugun ish kuni")
+#26
+# for parol in range (3):
+#     parol=input("Kodni kiriting")
+#     if parol=="Asadbek":
+#         print("Sizga chegirma beriladi ")
+#         break
+#27
+n=int(input("Matnni kiriting: "))
+if not 1 <= n <= 100:
