@@ -1,0 +1,131 @@
+#1
+# Talabalar={"ism":"Asadbek",
+#            "yosh":"18 da",
+#            "kurs":"Dasturlash",
+#            "baholari":"90 yuqori",
+#            "ism":"Rahmatilla","yosh":"17 da",
+#            "kurs":"Dasturlash",
+#            "baho":"90 yuqori","ism":"nurbek","yosh":"17 da","kurs":"chet tili","baho":"40 yuqori"}
+# Talabalar.get("Rahmatilla")
+# print(Talabalar)
+#2
+# ism ={"Asadbek":"18 yoshda","Rahmatilla":"17 yoshda","Nurbek":"17 yoshda","Abdurauf":"18 yoshda"}
+# for k,v in ism.items():
+#     print(k,v)
+#3
+
+# for k,v in Talabalar.items():
+#     print(k,v)
+# Talabalar.get("Rahmatilla")
+# print(Talabalar)
+#4
+# Talabalar={"ism":"Asadbek",
+#            "yosh":"18 da",
+#            "kurs":"1"
+#            "baholar":"90 yuqori",
+#            "telraqam":"336212010",
+#            "ism":"Rahmatilla",
+#            "yosh":"17 da",
+#            "kurs":"Dasturlash",
+#            "baholar":"90 yuqori",
+#            "telraqam":"663259878",
+#             "ism":"nurbek",
+#            "yosh":"17 da",
+#            "kurs":"chet tili",
+#            "baholar":"40 yuqori",
+#            "telraqam":"55987656",
+# }
+
+
+# Talabalar["yosh"] += 1
+
+# print(Talabalar)
+# talaba = {
+#     "ism": "Asadbek",
+#     "yosh": 20,
+#     "kurs": 2
+# }
+#
+# # Yoshni 1 yilga oshiramiz
+# talaba["yosh"] += 1
+#
+# print(talaba)
+#5
+# Talabalar={"ism":"Asadbek",
+#            "yosh":"18 da",
+#            "kurs":"Dasturlash",
+#            "baholari":"90 yuqori",
+#            "ism":"Rahmatilla","yosh":"17 da",
+#            "kurs":"Dasturlash",
+#            "baho":"90 yuqori","ism":"nurbek","yosh":"17 da","kurs":"chet tili","baho":"40 yuqori"}
+# del Talabalar["kurs"]
+# print(Talabalar)
+# Talabalar.get("Rahmatilla")
+# print(Talabalar)
+#6
+# n=int(input("Malumot kiriting: "))
+# Talabalar=["ism""Asadbek",
+#            "yosh" "18 da",
+#            "kurs""Dasturlash",
+#            "baholari""90 yuqori",
+#            "ism""Rahmatilla","yosh""17 da",
+#            "kurs""Dasturlash",
+#            "baho""90 yuqori","ism""nurbek","yosh""17 da","kurs""chet tili","baho""40 yuqori"]
+# if Talabalar==["ism""Asadbek",
+#            "yosh""18 da",
+#            "kurs""Dasturlash",
+#            "baholari""90 yuqori",
+#            "ism""Rahmatilla","yosh""17 da",
+#            "kurs""Dasturlash",
+#            "baho""90 yuqori","ism""nurbek","yosh""17 da","kurs""chet tili","baho""40 yuqori"]:
+#  print("Malumot bor")
+# else:
+#  print("Malumot yo'q ")
+# malumot = {}
+#
+# if not malumot:
+#     print("malumot mavjud emas")
+# else:
+#     print("Ma'lumot mavjud")
+#7
+# mevalar={"olma":"1000","anor":"12000"}
+# print(mevalar.keys())
+#8
+# mevalar={"olma":"1000","anor":"12000"}
+# print(mevalar.values())
+#9
+# mevalar={"olma":"1000","anor":"12000"}
+# print(mevalar.items())
+#10
+# talabalar = {
+# "Ali": {"yosh": 20, "kurs": 2},
+# "Laylo": {"yosh": 19, "kurs": 1}
+# }
+# talabalar["Laylo"]["kurs"]+=1
+# print(talabalar)
+#11
+# baholar = {"Ali": 88, "Vali": 92, "Laylo": 95, "Hasan": 90}
+# baholar=max(baholar.values())
+# print(baholar)
+#12
+# talabalar = {
+# "Asadbek": {"yosh": 18, "kurs": 1}
+# }
+# talabalar1={"Laylo": {"yosh": 20, "kurs": 2}}
+# print(talabalar.update(talabalar1))
+# print(talabalar)
+#13
+# baholar = {"Ali": 88, "Vali": 92, "Laylo": 95, "Hasan": 90}
+#
+# print(len(baholar))
+# print("Elementlar soni",len(baholar))
+#14
+# raqamlar = [1,2,3,1,2,1,4,3,2]
+# print(raqamlar.count(1))
+#15
+nums = {"Asadbek":"90 ball","Nurbek":"90 ball"}
+print(nums["Asadbek","Nurbek"])
+summa = 0
+for n in nums:
+    summa += n
+print("O'rtacha baho:",summa/len(nums))
